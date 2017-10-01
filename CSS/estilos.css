@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'roboto_condensedregular', Helvetica, Arial, "Lucida Grande", sans-serif;;
+    color: #181818;
+    background: #fff;
+    font-size: 1em;
+    line-height: 1.6em;
+    padding-top: 98px; /* Relleno superior igual a la altura de la cabecera*/
+
+}
+
+/* header */
+#main-header {
+    background: #464645;
+    color: white;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+  position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  margin-bottom: 0
+}
+
+    #main-header a {
+        color: white;
+    }
+ /*Header  */
+/* Logo */
+#logo-header {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+    #logo-header:hover {
+        color: #0b76a6;
+    }
+
+    #logo-header .site-name {
+        display: block;
+        font-weight: 700;
+        font-size: 2.63em;
+        font-family:'lobsterregular';
+        color:#FFD200;
+        padding-bottom: 9px;
+}
+
+    #logo-header .site-desc {
+        display: block;
+        font-weight: 300;
+        font-size: 0.8em;
+        color: #999;
+        padding-top: 4px
+    }
+
+ #logo-header .site-name:hover{
+    color: #fff;
+    -webkit-transition: color 1.2s ease-in-out;
+}
+/* Logo */
+
+
+
+
+/* barra de navegacion */
+
+ul, ol {
+                list-style:none;
+                padding-left: 0px;
+            }
+
+.nav {
+    float: right;
+    margin: 0;
+}
+
+.nav > li {
+                float:left;
+                margin: 0;
+             padding: 0;
+            list-style: none;
+            padding-right: 30px;
+             }
+
+.nav li a {
+                text-decoration:none;
+                display:block;
+                text-decoration: none;
+                background: #464645;
+                margin:0px 10px 0px 10px;
+                padding: 27px;
+                font-size: 14px;
+            }
+.nav li #home {
+  background:#a9a9a9;
+  color:#fff;
+}
+
+            .nav li a:hover {
+                 background: #252525;
+                        -webkit-transition: color 300ms ease-in-out;
+            }
+
+            .nav li ul {
+                display:none;
+                position:absolute;
+                min-width:140px;
+            line-height: 42px;
+
+            }
+
+            .nav li:hover > ul {
+                display:block;
+            }
+
+            .nav li ul li {
+                position:relative;
+            }
+
+            .nav li ul li ul {
+                right:-140px;
+                top:0px;
+            }
+
+
+/* Footer */
+#main-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+    #main-footer p {
+        margin: 0;
+    }
+
+    #main-footer a {
+        color: white;
+    }
+
+/* Footer */
+
+.main .articles {
+	width: 90%;
+	margin-left:5%;
+}
+
+.main .articles article{
+	padding:20px;
+	margin-bottom:20px;
+}
+
+#per-titu {
+    text-align: center;
+    font-size: 34px;
+
+}
+
+#site-name:hover{
+        color:
+}
+
+#icons {
+    margin: 0px 5px 0px 0px;
+}
+
+.icon-home{
+  margin: 0px 5px 0px 0px;
+}
+
+#divisionqueson {
+    border: 0px;
+    border-top:2px solid #E9E9E9;
+}
+
+#quesonlasenf{
+ color: #35CFE6;
+}
+
+#debehaber{
+    background:#DADADA;
+    border: 1px solid #D2D2D2;
+    padding: 15px;
+    border-radius: 5px;
+    line-height:29px;
+    padding-bottom: 3px;
+}
+
+#footer-menor{
+    font-size: 12px;
+}
+
+.paraacc{
+    text-align: center;
+}
+
+#guion{
+    background: #464645;
+    margin-right: 10px;
+    border-radius:70px;
+    color:#464645 ;
+    font-size: 7px;
+}
+
+
+#imagen img{
+    border-radius: 10px;
+}
+
+#descrip{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px
+}
